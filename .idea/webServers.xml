@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4db05d60-e8a9-4d4e-b9ef-5d8ab4eccc12" name="PayaraServer" url="http://localhost:8080">
+        <fileTransfer port="0" mountedRoot="C:\Users\Ορέστης\Downloads\payara5" accessType="MOUNT" />
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>Payara</name>
+        <servers>
+          <name value="PayaraServer" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>

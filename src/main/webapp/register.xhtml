@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all"/>
+    <h:head>
+        <h:outputLabel value="Welcome to Euroleague Fantasy Official Site"/>
+    </h:head>
+    <h:body>
+        <h:form id="bodyForm">
+            <h:outputLabel for="userName" value="User Name"/>
+            <h:inputText id="userName" value="#{eventBean.user.userName}"/>
+            <br></br>
+            <br></br>
+
+            <h:outputLabel for="email" value="Email"/>
+            <h:inputText id="email" value="#{eventBean.user.email}"/>
+            <br></br>
+            <br></br>
+
+            <h:outputLabel for="password" value="Password"/>
+            <h:inputSecret id="password" value="#{eventBean.user.password}"/>
+            <br></br>
+            <br></br>
+
+            <h:commandButton value="Register" actionListener="#{eventBean.createNewUser}"/>
+
+
+        </h:form>
+    </h:body>
+</f:view>
+</html>

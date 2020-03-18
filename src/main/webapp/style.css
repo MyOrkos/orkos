@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+p  {
+    border: 1px;
+    padding: 30px;
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+h2 {color: maroon; background: white;}
+h3 {color: white; background: black;
+    font: medium Helvetica;}
+
+body {
+    background-color: lightblue;
+}
+header{
+    background-color: darkcyan;
+}
